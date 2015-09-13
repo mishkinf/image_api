@@ -1,6 +1,7 @@
 class ChartImagesController < ApplicationController
   def create
     send_file chart_image.file_path
+    (chart_image.methods - Object.methods).sort
     chart_image.close
   end
 

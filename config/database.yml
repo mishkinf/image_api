@@ -4,28 +4,28 @@
 # Configure Using Gemfile
 # gem 'activerecord-jdbcsqlite3-adapter'
 #
-development: &dev
-  adapter: postgresql
-  database: highchart_images_dev
-  encoding: utf8
-  username: viewthespace
-  password: viewthespace
-  pool: 25
-  timeout: 5000
-  allow_concurrency: true
-
-test: &test
-  adapter: postgresql
-  database: highchart_images_test
-  encocding: utf8
-  username: viewthespace
-  password: viewthespace
-  pool: 5
-  timeout: 5000
-  allow_concurrency: true
-
-
-
+#development: &dev
+#  adapter: postgresql
+#  database: highchart_images_dev
+#  encoding: utf8
+#  username: viewthespace
+#  password: viewthespace
+#  pool: 25
+#  timeout: 5000
+#  allow_concurrency: true
+#
+#test: &test
+#  adapter: postgresql
+#  database: highchart_images_test
+#  encocding: utf8
+#  username: viewthespace
+#  password: viewthespace
+#  pool: 5
+#  timeout: 5000
+#  allow_concurrency: true
+#
+#
+#
 
 
 
