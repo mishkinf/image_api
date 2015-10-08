@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby '2.1.2'
 
-gem 'rails', '>=3.2.11'
+gem 'rails', '4.1.6'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -14,7 +14,7 @@ gem 'pg'
 
 group :production do
   # gem 'rails_log_stdout', git: 'git://github.com/threadedlabs/rails_log_stdout.git'
-  gem 'rpm_contrib'
+  # gem 'rpm_contrib'
 end
 
 group :test, :development do

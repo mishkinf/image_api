@@ -43,5 +43,4 @@ class ChartImage
     temp_file
   end
 
-
 end
